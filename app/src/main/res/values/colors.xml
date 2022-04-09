@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#63FF00</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#fca311</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="toolbarColor">#fca311</color>
+
+    <color name="lightFloatingColor">#14213d</color>
+    <color name="darkFloatingColor">#009EFF</color>
+    <!--    <color name="date_text_color">#FFD600</color>-->
+    <color name="swa">#219ebc</color>
+    <color name="sw">#8ecae6</color>
+    <color name="background_color">#FFFBE6</color>
+
+    <color name="colorTextPrimary">#CBD5ED</color>
+    <color name="colorTextOther">#FAD303</color>
+    <color name="colorTextSecondary">#4A5B82</color>
+    <color name="label">#BD0F03</color>
+    <color name="main_color">#8086242A</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.materialsouk.meetmyshow">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OMTBSApp">
+        <activity
+            android:name="com.materialsouk.meetmyshow.SeatingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.CinemaActivity"
+            android:exported="false"
+            android:label="Select Cinema" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.MovieDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.LocationActivity"
+            android:exported="false"
+            android:label="@string/city" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.MainActivity"
+            android:configChanges="uiMode"
+            android:exported="true" />
+        <activity
+            android:name="com.materialsouk.meetmyshow.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false"
+            >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="@string/api_key" />
+
+    </application>
+
+</manifest>
