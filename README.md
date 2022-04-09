@@ -1,5 +1,5 @@
 # MeetMyShow
-I have used authentication with proper validation at the starting of the app  using no libraries but only firebase library and also tried to reduce/optimise code.
+Online Movie Ticket Booking App
 # Screenshot
 <div style="display:flex;">
 <img src="screenshot/1.jpeg" width="23%">
