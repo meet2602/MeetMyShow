@@ -38,4 +38,5 @@ Built clone of BookMyShow ticket booking app using Kotlin
 # [All Diagram](https://github.com/meet2602/MeetMyShow/tree/master/screenshot/diagram)
 # [Sample Data](https://github.com/meet2602/MeetMyShow/tree/master/screenshot/movie_sample_data.json)
 
+# [YouTube Video Link](https://youtu.be/qzM71WWkyK4)
 
