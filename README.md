@@ -1,5 +1,6 @@
 # MeetMyShow
-Online Movie Ticket Booking App
+Online Movie Ticket Booking App 
+Built clone of BookMyShow ticket booking app using Kotlin
 # Screenshot
 <div style="display:flex;">
 <img src="screenshot/1.jpeg" width="23%">
